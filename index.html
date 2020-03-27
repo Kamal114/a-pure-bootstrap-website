@@ -44,7 +44,9 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
           <li class="nav-item dropdown" data-toggle="dropdown">
             <a class="nav-link dropdown-toggle" href="#">Projects</a>
             <div class="dropdown-menu">
@@ -53,8 +55,10 @@
               <a class="dropdown-item" href="#">Project Three</a>
             </div>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
         <form class="form-inline">
           <div class="input-group">
@@ -94,7 +98,7 @@
     <!-- Banner -->
 
     <!-- Skills -->
-    <section class="bg-light py-5">
+    <section class="bg-light py-5" id="skills">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col text-center">
@@ -208,7 +212,7 @@
     <!-- Projects -->
 
     <!-- Teams -->
-    <section class="bg-secondary p-2">
+    <section class="bg-secondary p-2" id="team">
       <div class="container-fluid">
         <div class="row mb-3">
           <div class="col text-center">
@@ -324,11 +328,11 @@
     <!-- Progress -->
 
     <!-- Contact -->
-    <section class="bg-light p-5">
+    <section class="bg-light p-5" id="contact">
       <div class="container-fluid">
         <div class="row mb-3">
           <div class="col text-center">
-            <h1 class="display-1 text-warning">Team</h1>
+            <h1 class="display-1 text-warning">Contact</h1>
             <p class="lead">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, a.
               Omnis, numquam!
@@ -363,6 +367,35 @@
       </div>
     </section>
     <!-- Contact -->
+
+    <!-- Footer -->
+    <section class="bg-secondary">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="text-white font-weight-light p-3">
+            A Pure Bootstrap Website
+          </h1>
+          <div>
+            <a href="#">
+              <i class="fab fa-facebook fa-2x mx-2"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-google-plus text-danger fa-2x mx-2"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter fa-2x text-info mx-2"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-youtube text-danger fa-2x mx-2"></i>
+            </a>
+          </div>
+          <p class="text-light py-3">
+            &copy; Copyright 2020 All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
